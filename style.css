@@ -79,10 +79,13 @@ header nav button {
   transition: all 0.3s ease;
 }
 header nav button:hover{
-  background-color: rgb(94, 91, 91);
-  color: white;
+  background-color: white;
+  color: black;
+  opacity: 0.9;
 }
-
+header nav button:active{
+scale: 0.9;
+}
 section.view1 {
   width: 100%;
   height: 100%;
@@ -129,6 +132,9 @@ section.view2 .view2left button {
 section.view2 .view2left button:hover {
   background-color: black;
   color: white;
+}
+section.view2 .view2left button:active{
+scale: 0.9;
 }
 section.view2 .view2right {
   width: 50%;
@@ -311,6 +317,9 @@ section.view5 .downtop button{
   font-size: 1rem;
   border-radius: 12px;
   background-color: transparent;
+}
+section.view5 .downtop button:active{
+scale: 0.9;
 }
 
 footer {
